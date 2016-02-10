@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<meta charset="utf-8">
+		<title>cipher</title>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="ciphers.js"></script>
+	</header>
+	<body>
+		<h1>Cipher 1.0</h1>
+		<p>Set key: s?(n+)+?n?n+?(n,)+</p>
+		<textarea type="text" id="key" rows="1" cols="50"></textarea>
+		<p>Type in text and click "Encrypt" or "Decrypt"</p>
+		<textarea type="text" id="message" rows="4" cols="50"></textarea><br>
+		<button onclick="encrypt()">Encrypt</button>
+		<button onclick="decrypt()">Decrypt</button>
+		<button onclick="reset()">Reset</button>
+		<p id="output"/>
+	</body>
+</html>
